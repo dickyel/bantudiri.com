@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Sidebar 03</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar" class="active">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Toggle Menu</span>
+          </button>
+        </div>
+        <div class="p-4">
+          <h1><a href="index.html" class="logo">Lokerapp</a></h1>
+          <ul class="list-unstyled components mb-5">
+            <li class="active">
+              <a href="#"><span class="fa fa-home mr-3"></span>Dashboard</a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-user mr-3"></span>Kategori</a>
+            </li>
+            <li>
+            <a href="#"><span class="fa fa-briefcase mr-3"></span>Loker</a>
+            </li>
+            <li>
+            <a href="#"><span class="fa fa-sticky-note mr-3"></span>Artikel</a>
+            </li>
+            <li>
+            <a href="#"><span class="fa fa-paper-plane mr-3"></span>Iklan</a>
+            </li>
+            <li>
+              <a href="#"><span class="fa fa-briefcase mr-3"></span>Kritik & Saran</a>
+            </li>
+          </ul>
+
+          <div class="footer">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  <i class="icon-heart" aria-hidden="true"></i> by <a href="https://xenulis.my.id" target="_blank">Lokerapp</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+
+        </div>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+        <h2 class="mb-4">Form Tambah Kategori</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group mb-4">
+              <label for="kategori">Nama Kategori:</label>
+              <input type="text" class="form-control" id="kategori" name="kategori">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group mb-4">
+              <label for="deskripsi">Deskripsi Kategori:</label>
+              <textarea class="form-control" id="deskripsi" name="deskripsi" rows="3"></textarea>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Tambah Kategori</button>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
